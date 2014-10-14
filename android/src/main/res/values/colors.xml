@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="light_grey">#F5F5F5</color>
-    <color name="lighter_gray">#ddd</color>
+    <color name="light_grey">#EEEEF5</color>
+    <color name="lighter_gray">#ccf</color>
 
-    <color name="main_xda_color">#de7300</color>
-    <color name="main_xda_color_dark">#de7300</color>
-    <color name="xda_color_accent">#12911D</color>
+    <color name="main_xda_color">#3254B0</color>
+    <color name="main_xda_color_dark">#1339A1</color>
+    <color name="xda_color_accent">#0D2B7B</color>
 
     <color name="colorPrimary">@color/main_xda_color</color>
     <color name="colorPrimaryDark">@color/main_xda_color_dark</color>
     <color name="colorAccent">@color/xda_color_accent</color>
 
-    <color name="selected_color">#E8BA88</color>
-    <color name="very_light_grey">#E0E0E0</color>
+    <color name="selected_color">#7790D4</color>
+    <color name="very_light_grey">#AEC4FF</color>
 
-    <color name="top_item">#a6c</color>
+    <color name="top_item">#77f</color>
     <color name="sticky_item">#f44</color>
     <color name="sticky_item_text">#fff</color>
     <color name="fab_color">@color/colorAccent</color>

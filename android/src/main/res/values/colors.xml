@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+<!-- Indigo Material Palette
+ Primary  500 #3F51B5
+50  #E8EAF6
+100 #C5CAE9
+200 #9FA8DA
+300 #7986CB
+400 #5C6BC0
+500 #3F51B5
+600 #3949AB
+700 #303F9F
+800 #283593
+900 #1A237E
+A700 #304FFE
+-->
     <!-- Main Android colours -->
     <color name="colorPrimary">@color/main_xda_color</color>
-    <color name="colorPrimaryDark">@color/orange_900</color>
-    <color name="colorAccent">@color/indigo_a700</color>
+    <color name="colorPrimaryDark">@color/main_xda_color_dark</color>
+    <color name="colorAccent">@color/custom_accent</color>
 
     <!-- Component colours -->
     <color name="fab_color">@color/colorAccent</color>
-    <color name="tab_layout_background_color">@color/colorPrimary</color>
-    <color name="navigation_drawer_icon">#8c000000</color>
+    <color name="tab_layout_background_color">@color/colorPrimaryDark</color>
+    <color name="navigation_drawer_icon">#1A237E</color><!--        900 #1A237E -->
 
     <!-- Custom/XDA colours -->
-    <color name="main_xda_color">#de7300</color>
-    <color name="custom_accent_green">#12911D</color>
+    <color name="main_xda_color">#3F51B5</color> <!--Indigo Primary 500 #3F51B5 -->
+    <color name="main_xda_color_dark">#283593</color><!--           800 #283593 -->
+    <color name="custom_accent">#304FFE</color><!--                A700 #304FFEh -->
 
-    <color name="lighter_gray">#ddd</color>
+    <color name="lighter_gray">#000000</color>
     <color name="very_light_grey">#E0E0E0</color>
 
-    <!-- Material Design Colours -->
-    <color name="orange_500">#ff9800</color>
-    <color name="orange_700">#f57C00</color>
-    <color name="orange_800">#ef6C00</color>
-    <color name="orange_900">#e65100</color>
-
-    <color name="deep_purple_a700">#6200EA</color>
-
-    <color name="indigo_a700">#304ffe</color>
-
-    <!-- Black palate from Google's guidelines -->
+    <!-- Black palette from Google's guidelines -->
     <color name="default_black">#ff000000</color>
     <color name="default_divider">#1f000000</color>
     <color name="default_hint">#42000000</color>
